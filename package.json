@@ -1,0 +1,26 @@
+{
+  "name": "dlcspm-docs",
+  "version": "1.0.0",
+  "description": "DLCSPM Documentation",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "mkdocs serve",
+    "install": "pip install mkdocs",
+    "build": "mkdocs build --clean",
+    "upload": "aws s3 cp ./site s3://docs.dlcspm.com --recursive --acl public-read",
+    "publish": "npm run build && npm run upload"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dlcspm/docs.git"
+  },
+  "author": "DLCSPM",
+  "license": "Open Government Licence - Canada",
+  "bugs": {
+    "url": "https://github.com/dlcspm/docs/issues"
+  },
+  "homepage": "https://github.com/dlcspm/docs#readme"
+}

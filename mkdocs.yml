@@ -1,5 +1,13 @@
 site_name: My Docs
-pages:
-- Home: README.md
-- About: about.md
+site_favicon: favicon.ico
+site_url: https://docs.dlcspm.com
+repo_url: https://github.com/dlcspm/docs
+site_description: Documentation for DLCSPM
+site_author: DLCSPM
 theme: readthedocs
+markdown_extensions:
+  - smarty
+pages:
+  - Home: index.md
+  - About: about.md
+  - CWIX: cwix.md
