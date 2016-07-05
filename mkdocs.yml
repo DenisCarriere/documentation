@@ -1,0 +1,5 @@
+site_name: My Docs
+pages:
+- Home: README.md
+- About: about.md
+theme: readthedocs
