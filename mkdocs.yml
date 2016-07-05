@@ -1,7 +1,7 @@
 site_name: My Docs
 site_favicon: favicon.ico
 site_url: https://docs.dlcspm.com
-repo_url: https://github.com/dlcspm/docs
+repo_url: https://github.com/dlcspm/documentation
 site_description: Documentation for DLCSPM
 site_author: DLCSPM
 theme: readthedocs
@@ -9,5 +9,6 @@ markdown_extensions:
   - smarty
 pages:
   - Home: index.md
-  - About: about.md
+  - Install: install.md
   - CWIX: cwix.md
+  - OGC: ogc.md

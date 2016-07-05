@@ -15,12 +15,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dlcspm/docs.git"
+    "url": "git+https://github.com/dlcspm/documentation.git"
   },
   "author": "DLCSPM",
   "license": "Open Government Licence - Canada",
   "bugs": {
-    "url": "https://github.com/dlcspm/docs/issues"
+    "url": "https://github.com/dlcspm/documentation/issues"
   },
-  "homepage": "https://github.com/dlcspm/docs#readme"
+  "homepage": "https://github.com/dlcspm/documentation#readme"
 }
