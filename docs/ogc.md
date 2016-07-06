@@ -1,3 +1,1 @@
-# OGC
-
 OGC related documentation

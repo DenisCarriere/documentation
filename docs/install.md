@@ -1,4 +1,8 @@
-# Install
+# Table of Contents
+
+[TOC]
+
+# Dependencies
 
 You will need to install `Mkdocs` which is a **Python** library & **NodeJS** to run the scripts from the `package.json` using `npm`.
 
@@ -9,7 +13,7 @@ You will need to install `Mkdocs` which is a **Python** library & **NodeJS** to 
 $ pip install mkdocs
 ```
 
-## Locally Hosted
+# Publish to Localhost
 
 ```bash
 $ npm start
@@ -25,7 +29,7 @@ INFO    -  Cleaning site directory
 
 Using your favourite web browser open [localhost:8000](localhost:8000).
 
-## Publish to AWS
+# Publish to AWS
 
 ```bash
 $ npm run publish
