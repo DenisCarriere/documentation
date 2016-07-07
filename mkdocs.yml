@@ -8,10 +8,12 @@ repo_url: https://github.com/dlcspm/documentation
 repo_name: Documentation
 
 theme: readthedocs
-
+markdown_extensions:
+    - smarty
 pages:
-    - Home: index.md
+  - Home: index.md
+  - USER DOCUMENTATION:
+    - Security: security.md
+    - OGC: ogc.md
+  - SERVER DOCUMENTATION:
     - Install: install.md
-    - User Guides:
-      - CWIX: cwix.md
-      - OGC: ogc.md
