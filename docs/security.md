@@ -42,6 +42,10 @@ Secure Sockets Layer
 
 This term is commonly used in the cyber security community and can be described as a malicious/spying attack on your network. When someone is able to intercept & read packets of data which were only intended between your clients & server to read.
 
+# Extended Validation Certificates
+
+- https://blogs.technet.microsoft.com/askds/2009/08/14/extended-validation-support-for-websites-using-internal-certificates/
+
 # TLS 1.2
 
 Content
