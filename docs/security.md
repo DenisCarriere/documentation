@@ -1,5 +1,3 @@
-# Security
-
 # Table of Contents
 
 [TOC]
@@ -42,7 +40,7 @@ Secure Sockets Layer
 
 # Man in the Middle
 
-Content
+This term is commonly used in the cyber security community and can be described as a malicious/spying attack on your network. When someone is able to intercept & read packets of data which were only intended between your clients & server to read.
 
 # TLS 1.2
 
