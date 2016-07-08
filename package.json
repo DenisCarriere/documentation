@@ -10,7 +10,7 @@
     "start": "mkdocs serve",
     "install": "pip install mkdocs",
     "build": "mkdocs build --clean",
-    "upload": "aws s3 sync ./site s3://docs.dlcspm.com --recursive --acl public-read",
+    "upload": "aws s3 cp ./site s3://docs.dlcspm.com --recursive --acl public-read",
     "publish": "npm run build && npm run upload"
   },
   "repository": {
