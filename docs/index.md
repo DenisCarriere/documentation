@@ -2,13 +2,11 @@
 
 A collection of documentation created by DLCSPM.
 
-- **USER DOCUMENTATION**
+**USER DOCUMENTATION**
 
-    - [Security](security)
-    - [OGC](ogc)
+  - [Security](security)
+  - [OGC](ogc)
 
-----------------------------
+**SERVER DOCUMENTATION**
 
-- **SERVER DOCUMENTATION**
-
-    - [Install](install)
+  - [Install](install)

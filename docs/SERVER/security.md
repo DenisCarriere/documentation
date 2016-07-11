@@ -1,6 +1,6 @@
 # Security
 
-## Table of Contents
+**Table of Contents**
 
 [TOC]
 
@@ -12,7 +12,7 @@ Securing your services & applications over HTTPS (SSL) is highly important to ma
 
 Typical applications will initially request a token from the server for authentication. To do such request, the application needs to send a combination of Username/Password to the server. Users only wants to share their credentials with the server and no one else. Unauthorized intruders have the ability to intercept network traffic between servers and clients. Here are examples of data being intercepted by a [man in the middle](#man-in-the-middle) attack.
 
-**Credentials over HTTP**
+### Credentials over HTTP
 
 Performing a POST with Basic Authorization over an un-secure connection we can easily intercept the client's username (JohnSmith) & password (12345678).
 
@@ -27,7 +27,7 @@ Hypertext Transfer Protocol
     Credentials: JohnSmith:12345678
 ```
 
-**Credentials over SSL**
+### Credentials over SSL
 
 When we performed the same POST with Basic Authorization we were enable to intercept any content from the HTTP headers. The only data visible from the intercepted packet is encrypted.
 
@@ -40,9 +40,9 @@ Secure Sockets Layer
   Encrypted Application Data: 09b24c93d51714a77fb77687c761ca1d3c1a75d9a680dc6...
 ```
 
-## Man in the Middle
+## Man in the Middle (MITM) Attacks
 
-This term is commonly used in the cyber security community and can be described as a malicious/spying attack on your network. When someone is able to intercept & read packets of data which were only intended between your clients & server to read.
+This term is commonly used in the cyber security community and can be described as a malicious/spying attack on your network. In this type of attack, someone is "listening" to the traffic between the browser and the server. The most common MITM happens at Internet cafes, by listening to the WiFi.
 
 ## Extended Validation Certificates
 

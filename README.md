@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/dlcspm/documentation.svg?branch=master)](https://travis-ci.org/dlcspm/documentation)
+
 # DLCSPM Documentation
 
 Preview documentation at [docs.dlcspm.com](https://docs.dlcspm.com).

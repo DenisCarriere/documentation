@@ -13,7 +13,9 @@ markdown_extensions:
 pages:
   - Home: index.md
   - USER DOCUMENTATION:
-    - Security: security.md
-    - OGC: ogc.md
+    - OGC: USER/ogc.md
   - SERVER DOCUMENTATION:
-    - GeoServer: geoserver/README.md
+    - GeoServer: SERVER/geoserver.md
+    - Security: SERVER/security.md
+  - LESSONS LEARNED:
+    - CWIX: LESSONS/cwix.md

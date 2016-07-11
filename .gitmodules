@@ -1,3 +1,0 @@
-[submodule "docs/geoserver"]
-	path = docs/geoserver
-	url = https://github.com/dlcspm/geoserver.git

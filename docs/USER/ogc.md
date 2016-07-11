@@ -1,6 +1,6 @@
 # OGC
 
-## Table of Contents
+**Table of Contents**
 
 [TOC]
 
