@@ -1,12 +1,14 @@
-# Table of Contents
+# Security
+
+## Table of Contents
 
 [TOC]
 
-# Overview
+## Overview
 
 Securing your services & applications over HTTPS (SSL) is highly important to make sure your content is private between client & server.
 
-# Credentials over HTTP vs. SSL
+## Credentials over HTTP vs. SSL
 
 Typical applications will initially request a token from the server for authentication. To do such request, the application needs to send a combination of Username/Password to the server. Users only wants to share their credentials with the server and no one else. Unauthorized intruders have the ability to intercept network traffic between servers and clients. Here are examples of data being intercepted by a [man in the middle](#man-in-the-middle) attack.
 
@@ -38,14 +40,14 @@ Secure Sockets Layer
   Encrypted Application Data: 09b24c93d51714a77fb77687c761ca1d3c1a75d9a680dc6...
 ```
 
-# Man in the Middle
+## Man in the Middle
 
 This term is commonly used in the cyber security community and can be described as a malicious/spying attack on your network. When someone is able to intercept & read packets of data which were only intended between your clients & server to read.
 
-# Extended Validation Certificates
+## Extended Validation Certificates
 
 - https://blogs.technet.microsoft.com/askds/2009/08/14/extended-validation-support-for-websites-using-internal-certificates/
 
-# TLS 1.2
+## TLS 1.2
 
 Content

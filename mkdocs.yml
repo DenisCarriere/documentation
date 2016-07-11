@@ -16,4 +16,4 @@ pages:
     - Security: security.md
     - OGC: ogc.md
   - SERVER DOCUMENTATION:
-    - Install Documentation: install.md
+    - GeoServer: geoserver/README.md
