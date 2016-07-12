@@ -1,9 +1,5 @@
 # GeoServer
 
-**Table of Contents**
-
-[TOC]
-
 ## Software Requirements
 
 - [Windows Server 2012 R2](https://www.microsoft.com/en-us/cloud-platform/windows-server-2012-r2)

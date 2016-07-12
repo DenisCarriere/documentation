@@ -1,9 +1,5 @@
 # OGC
 
-**Table of Contents**
-
-[TOC]
-
 ## Overview
 
 Open Geospatial Consortium is a collection of standards for geospatial file formats & web protocols for GIS applications. Many applications which have mapping components are built on top of these standards. It is important for GIS service providers to publish according to OGC standards for greater interoperability with consumers.

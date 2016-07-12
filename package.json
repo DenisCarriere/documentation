@@ -8,9 +8,9 @@
   },
   "scripts": {
     "start": "mkdocs serve",
-    "install": "pip install mkdocs",
-    "build": "mkdocs build --clean",
-    "upload": "aws s3 cp ./site s3://docs.dlcspm.com --recursive --acl public-read --region us-east-1",
+    "install": "pip install -r requirements",
+    "build": "make html",
+    "upload": "aws s3 cp ./build/html s3://docs.dlcspm.com --recursive --acl public-read --region us-east-1",
     "publish": "npm run build && npm run upload"
   },
   "repository": {
