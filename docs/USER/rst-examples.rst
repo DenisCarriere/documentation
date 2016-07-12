@@ -47,7 +47,18 @@ Warning
     .. warning:: note the space between the directive and the text
 
 
+Links
+-----
+
+`Read More <http://geojson.org/geojson-spec.html>`_
+
+.. code-block:: console
+
+  `Read More <http://geojson.org/geojson-spec.html>`_
+
+
 Guides
 ------
 
+- https://github.com/ralsina/rst-cheatsheet/blob/master/rst-cheatsheet.rst
 - http://thomas-cokelaer.info/tutorials/sphinx/rest_syntax.html
