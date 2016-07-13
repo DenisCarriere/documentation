@@ -4,12 +4,18 @@ Security
 Overview
 --------
 
-Securing your services & applications over HTTPS (SSL) is highly important to make sure your content is private between client & server.
+Securing your services & applications over HTTPS (SSL) is highly important
+to make sure your content is private between client & server.
 
 Credentials over HTTP vs. SSL
 -----------------------------
 
-Typical applications will initially request a token from the server for authentication. To do such request, the application needs to send a combination of Username/Password to the server. Users only wants to share their credentials with the server and no one else. Unauthorized intruders have the ability to intercept network traffic between servers and clients. Here are examples of data being intercepted by a [man in the middle](#man-in-the-middle) attack.
+Typical applications will initially request a token from the server for authentication.
+To do such request, the application needs to send a combination of Username/Password
+to the server. Users only wants to share their credentials with the server and
+no one else. Unauthorized intruders have the ability to intercept network traffic
+between servers and clients. Here are examples of data being intercepted
+by a `man in the middle <#man-in-the-middle-mitm-attacks>`_ attack.
 
 Credentials over HTTP
 ~~~~~~~~~~~~~~~~~~~~~
@@ -52,16 +58,7 @@ Extended Validation Certificates
 
 - https://blogs.technet.microsoft.com/askds/2009/08/14/extended-validation-support-for-websites-using-internal-certificates/
 
-TLS 1.2
+Friend
 -------
 
-Content
-
-=====  =====  ======
-   Inputs     Output
-------------  ------
-  A      B    A or B
-=====  =====  ======
-False  False  False
-True   False  True
-=====  =====  ======
+Content TLS here

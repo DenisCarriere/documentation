@@ -13,8 +13,7 @@ A collection of documentation created by DLCSPM.
     :caption: USER DOCUMENTATION
     :name: user
 
-    USER/ogc
-    USER/rst-examples
+    USER/ogc.rst
     USER/geo-data-formats
 
 .. toctree::

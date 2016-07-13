@@ -12,24 +12,16 @@ You will need to install `Mkdocs` which is a **Python** library & **NodeJS** to 
 - [Install NodeJS 6.X](https://nodejs.org/en/)
 
 ```
-$ pip install mkdocs
+$ pip install -r requirements
 ```
 
 ## Publish to Localhost
 
 ```bash
-$ npm start
-
-> mkdocs serve
-
-INFO    -  Building documentation...
-INFO    -  Cleaning site directory
-[I 160705 14:00:08 server:281] Serving on http://127.0.0.1:8000
-[I 160705 14:00:08 handlers:59] Start watching changes
-[I 160705 14:00:08 handlers:61] Start detecting changes
+$ make html
 ```
 
-Using your favourite web browser open [localhost:8000](localhost:8000).
+Using your documentation will build static files located at `build/html`.
 
 ## Publish to AWS
 
