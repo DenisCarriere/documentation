@@ -15,6 +15,7 @@ A collection of documentation created by DLCSPM.
 
     USER/ogc.rst
     USER/geo-data-formats
+    USER/mobile-applications
 
 .. toctree::
     :maxdepth: 2
