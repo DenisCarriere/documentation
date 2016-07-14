@@ -28,6 +28,15 @@ properties are Feature objects. Sets of features are contained by FeatureCollect
 
 `Read More <http://geojson.org/geojson-spec.html>`_
 
+MBTiles
+-------
+
+MBTiles is a specification for storing tiled map data in SQLite databases for
+immediate usage and for transfer. MBTiles files, known as tilesets, must
+implement the specification below to ensure compatibility with devices.
+
+`Read More <https://github.com/mapbox/mbtiles-spec>`_
+
 TopoJSON
 --------
 
