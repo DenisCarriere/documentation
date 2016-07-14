@@ -26,25 +26,38 @@ Supported OGC Services
 ----------------------
 
 - WCS
+
   - 1.0.0
   - 1.1.0
   - 1.1.1
   - 1.1
   - 2.0.1
+
 - WFS
+
   - 1.0.0
   - 1.1.0
   - 2.0.0
+
 - WMS
+
   - 1.1.1
   - 1.3.0
+
 - WPS
+
   - 1.0.0
+
 - TMS
+
   - 1.0.0
+
 - WMS-C
+
   - 1.1.1
+
 - WMTS
+
   - 1.0.0
 
 Supported Data sources
