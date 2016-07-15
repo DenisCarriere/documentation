@@ -1,7 +1,17 @@
-# Nginx
+Web Servers
+===========
+
+Nginx
+-----
 
 Web Proxy server
 
-## Install
+Install
+~~~~~~~
 
-- https://api.dlcspm.com
+- http://nginx.org/en/docs/windows.html
+
+HTTP2
+-----
+
+- https://tools.keycdn.com/http2-test
