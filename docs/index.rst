@@ -14,6 +14,7 @@ A collection of documentation created by DLCSPM.
     :name: user
 
     USER/ogc.rst
+    USER/geo-pdf.rst
     USER/geo-data-formats
     USER/mobile-applications
 
